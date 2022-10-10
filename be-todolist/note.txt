@@ -1,0 +1,13 @@
+1. Thêm hook loading cho cả bài (be - 2s)
+2. Validate cho input (cả fe và be)
+3. Select detail
+4. Thông báo cho tất cả event
+
+----------------------------------------------------------------
+1. Chia ra từng pages nhỏ (ở đây là 2 pages)
+2. call api trong từng pages 
+3. hook loading phải cấu trúc lại thành hook (khi nào call api thì mới gọi chứ không gọi trong giao diện)
+4. Chỉ có 1 file chính chứa cái route (ko nên có APP hoặc MAIN)
+5. Tạo 1 file data chứa các tên cố định, hằng, khi nào dùng thì import nó vào 
+6. Tìm hiểu dotenv trong nodejs
+

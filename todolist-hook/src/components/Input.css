@@ -1,0 +1,48 @@
+input {
+    width: 250px;
+    height: 50px;
+    font-size: 13px;
+    padding: 20px 20px;
+    background-color: rgba(253, 240, 240, 0.75);
+    border: none;
+    border: 0.5px solid rgba(204, 200, 200, 0.75);
+    border-radius: 2px;
+    outline: none;
+    margin-top: 15px;
+}
+
+.input_btn {
+    display: flex;
+}
+
+.ui.button.submit {
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.div_err_input {
+    color: red;
+    font-weight: bold;
+}
+
+.modal-content button {
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal-content .modal-title {
+    font-weight: bold;
+    color: #177a4c
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+    height: 110px;
+    width: 300px;
+    background-color: #e8f8f7 !important;
+    margin: 0 auto
+}
